@@ -1,0 +1,291 @@
+body{
+    background: url(./img/cardtable.png);
+    background-position: top;
+}
+
+.comp-line{
+    position: fixed;
+
+    margin-top: 300px;
+    margin-left: 80px;
+
+    width: 1665px;
+    height: 200px ;
+
+    block-size: 200px;
+
+    /* background: red; */
+}
+
+.user-line{
+    position: fixed;
+
+    margin-top: 536px;
+    margin-left: 80px;
+
+    width: 1665px;
+    height: 200px ;
+
+    block-size: 200px;
+
+    /* background: blue; */
+}
+
+.comp-card-hide{
+    position: relative;
+    bottom: 196px;
+    width: 130px;
+    height: 200px ;
+    margin-right: 32px;
+
+    visibility: visible;
+    
+
+
+
+    /* background: green;  */
+
+}
+
+.comp-card{
+
+    width: 130px;
+    height: 200px ;
+
+
+    margin-right: 32px;
+
+    block-size: 190px;
+
+
+    /* background: green;  */
+
+}
+
+.user-card{
+    width: 130px;
+    height: 200px ;
+
+    margin-right: 32px;
+
+    block-size: 190px;
+
+
+    /* background: violet;  */
+
+}
+
+
+.user-button{
+    position: fixed;
+
+    margin-top: 900px;
+    margin-left: 240px;
+
+    width: 450px;
+    height: 50px ;
+
+    visibility: visible;
+}
+
+.chansel-button{
+    position: fixed;
+
+    margin-top: 900px;
+    margin-left: 1110px;
+
+    width: 400px;
+    height: 50px ;
+
+    visibility: hidden;
+}
+
+.reload-button{
+    position: fixed;
+
+    margin-top: 900px;
+    margin-left: 240px;
+
+    width: 450px;
+    height: 50px ;
+
+    visibility: hidden;
+}
+
+.score{
+    position: fixed;
+
+    margin-top: 230px;
+    margin-left: 410px; 
+
+    text-shadow: 5px 4px 6px #000000;
+
+    font-family: 'Water Brush', cursive;
+
+    color: #FFD700;
+
+    text-shadow: 
+    -0   -4px 3px #000000,
+     0   -4px 3px #000000,
+    -0    4px 3px #000000,
+     0    4px 3px #000000,
+    -4px -0   3px #000000,
+     4px -0   3px #000000,
+    -4px  0   3px #000000,
+     4px  0   3px #000000,
+    -1px -4px 3px #000000,
+     1px -4px 3px #000000,
+    -1px  4px 3px #000000,
+     1px  4px 3px #000000,
+    -4px -1px 3px #000000,
+     4px -1px 3px #000000,
+    -4px  1px 3px #000000,
+     4px  1px 3px #000000,
+    -2px -4px 3px #000000,
+     2px -4px 3px #000000,
+    -2px  4px 3px #000000,
+     2px  4px 3px #000000,
+    -4px -2px 3px #000000,
+     4px -2px 3px #000000,
+    -4px  2px 3px #000000,
+     4px  2px 3px #000000,
+    -3px -4px 3px #000000,
+     3px -4px 3px #000000,
+    -3px  4px 3px #000000,
+     3px  4px 3px #000000,
+    -4px -3px 3px #000000,
+     4px -3px 3px #000000,
+    -4px  3px 3px #000000,
+     4px  3px 3px #000000,
+    -4px -4px 3px #000000,
+     4px -4px 3px #000000,
+    -4px  4px 3px #000000,
+     4px  4px 3px #000000,
+    -4px -4px 3px #000000,
+     4px -4px 3px #000000,
+    -4px  4px 3px #000000,
+     4px  4px 3px #000000;
+
+}
+
+.score-comp{
+    position: fixed;
+
+    margin-top: 230px;
+    margin-left: 1070px; 
+
+    text-shadow: 5px 4px 6px #000000;
+
+    font-family: 'Water Brush', cursive;
+
+    visibility: hidden;
+
+    color: #ff1e00;
+
+    text-shadow: 
+    -0   -4px 3px #000000,
+     0   -4px 3px #000000,
+    -0    4px 3px #000000,
+     0    4px 3px #000000,
+    -4px -0   3px #000000,
+     4px -0   3px #000000,
+    -4px  0   3px #000000,
+     4px  0   3px #000000,
+    -1px -4px 3px #000000,
+     1px -4px 3px #000000,
+    -1px  4px 3px #000000,
+     1px  4px 3px #000000,
+    -4px -1px 3px #000000,
+     4px -1px 3px #000000,
+    -4px  1px 3px #000000,
+     4px  1px 3px #000000,
+    -2px -4px 3px #000000,
+     2px -4px 3px #000000,
+    -2px  4px 3px #000000,
+     2px  4px 3px #000000,
+    -4px -2px 3px #000000,
+     4px -2px 3px #000000,
+    -4px  2px 3px #000000,
+     4px  2px 3px #000000,
+    -3px -4px 3px #000000,
+     3px -4px 3px #000000,
+    -3px  4px 3px #000000,
+     3px  4px 3px #000000,
+    -4px -3px 3px #000000,
+     4px -3px 3px #000000,
+    -4px  3px 3px #000000,
+     4px  3px 3px #000000,
+    -4px -4px 3px #000000,
+     4px -4px 3px #000000,
+    -4px  4px 3px #000000,
+     4px  4px 3px #000000,
+    -4px -4px 3px #000000,
+     4px -4px 3px #000000,
+    -4px  4px 3px #000000,
+     4px  4px 3px #000000;
+
+}
+
+.end-text{
+    position: fixed;
+
+    margin-top: 800px;
+    margin-left: 800px;
+
+    width: 450px;
+    height: 50px ;
+
+    text-shadow: 5px 4px 6px #000000;
+
+    color: #ff1e00;
+
+	text-shadow: 
+		-0   -4px 3px #000000,
+		 0   -4px 3px #000000,
+		-0    4px 3px #000000,
+		 0    4px 3px #000000,
+		-4px -0   3px #000000,
+		 4px -0   3px #000000,
+		-4px  0   3px #000000,
+		 4px  0   3px #000000,
+		-1px -4px 3px #000000,
+		 1px -4px 3px #000000,
+		-1px  4px 3px #000000,
+		 1px  4px 3px #000000,
+		-4px -1px 3px #000000,
+		 4px -1px 3px #000000,
+		-4px  1px 3px #000000,
+		 4px  1px 3px #000000,
+		-2px -4px 3px #000000,
+		 2px -4px 3px #000000,
+		-2px  4px 3px #000000,
+		 2px  4px 3px #000000,
+		-4px -2px 3px #000000,
+		 4px -2px 3px #000000,
+		-4px  2px 3px #000000,
+		 4px  2px 3px #000000,
+		-3px -4px 3px #000000,
+		 3px -4px 3px #000000,
+		-3px  4px 3px #000000,
+		 3px  4px 3px #000000,
+		-4px -3px 3px #000000,
+		 4px -3px 3px #000000,
+		-4px  3px 3px #000000,
+		 4px  3px 3px #000000,
+		-4px -4px 3px #000000,
+		 4px -4px 3px #000000,
+		-4px  4px 3px #000000,
+		 4px  4px 3px #000000,
+		-4px -4px 3px #000000,
+		 4px -4px 3px #000000,
+		-4px  4px 3px #000000,
+		 4px  4px 3px #000000;
+
+
+    font-style: italic;
+    text-transform: uppercase;
+    word-spacing: -0.6pt;
+    line-height: 0.9;
+
+    visibility: hidden;
+}

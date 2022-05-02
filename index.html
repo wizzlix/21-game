@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>21</title>
+</head>
+<body>
+    <div>
+        <div class="comp-line">
+            <img id="cc-1"  src="img\grid.png" class="comp-card">
+            <img id="cc-2"  src="img\grid.png" class="comp-card">
+            <img id="cc-3"  src="img\grid.png" class="comp-card">
+            <img id="cc-4"  src="img\grid.png" class="comp-card">
+            <img id="cc-5"  src="img\grid.png" class="comp-card">
+            <img id="cc-6"  src="img\grid.png" class="comp-card">
+            <img id="cc-7"  src="img\grid.png" class="comp-card">
+            <img id="cc-8"  src="img\grid.png" class="comp-card">
+            <img id="cc-9"  src="img\grid.png" class="comp-card">
+            <img id="cc-10" src="img\grid.png" class="comp-card">
+
+            <img id="cc-1-hide"  src="img\grid-hide.png" class="comp-card-hide">
+            <img id="cc-2-hide"  src="img\grid-hide.png" class="comp-card-hide">
+            <img id="cc-3-hide"  src="img\grid-hide.png" class="comp-card-hide">
+            <img id="cc-4-hide"  src="img\grid-hide.png" class="comp-card-hide">
+            <img id="cc-5-hide"  src="img\grid-hide.png" class="comp-card-hide">
+            <img id="cc-6-hide"  src="img\grid-hide.png" class="comp-card-hide">
+            <img id="cc-7-hide"  src="img\grid-hide.png" class="comp-card-hide">
+            <img id="cc-8-hide"  src="img\grid-hide.png" class="comp-card-hide">
+            <img id="cc-9-hide"  src="img\grid-hide.png" class="comp-card-hide">
+            <img id="cc-10-hide" src="img\grid-hide.png" class="comp-card-hide">
+        </div>
+    
+        <div class="user-line">
+            <img id="uc-1"  src="img\grid.png" class="user-card" alt="Карта игрока">
+            <img id="uc-2"  src="img\grid.png" class="user-card" alt="Карта игрока">
+            <img id="uc-3"  src="img\grid.png" class="user-card" alt="Карта игрока">
+            <img id="uc-4"  src="img\grid.png" class="user-card" alt="Карта игрока">
+            <img id="uc-5"  src="img\grid.png" class="user-card" alt="Карта игрока">
+            <img id="uc-6"  src="img\grid.png" class="user-card" alt="Карта игрока">
+            <img id="uc-7"  src="img\grid.png" class="user-card" alt="Карта игрока">
+            <img id="uc-8"  src="img\grid.png" class="user-card" alt="Карта игрока">
+            <img id="uc-9"  src="img\grid.png" class="user-card" alt="Карта игрока">
+            <img id="uc-10" src="img\grid.png" class="user-card" alt="Карта игрока">
+        </div>
+    </div>
+
+    <button onclick="UserStep()"        class="user-button btn btn-success">Взять карту</button>
+    <button onclick="StopGame()"        class="chansel-button btn btn-danger">Закончить игру</button>
+    <button onclick="location.reload()" class="reload-button btn btn-warning">Начать новую игру</button>
+
+    <h1 class="score", id="score">Your Score: 0</h1>
+    <h1 class="score-comp", id="score-comp">Computer Score: 0</h1>
+
+    <h1 class="end-text" id="end-text">Вы выиграли!</h1>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
